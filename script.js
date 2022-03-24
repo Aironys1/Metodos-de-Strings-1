@@ -1,30 +1,18 @@
-let nome = "Aironys Garrido de Macedo";
-let nome2 = "Amanda Carla";
+let nome = "Somos os melhores ";
 
-let resultado = nome.length;   // Para chamar o resultado
-let resultado2 = nome2.indexOf('Carla');  // Para saber a posição
- 
-console.log(resultado);    // Para saber quantos caracter tem na palavra
-
-console.log(resultado2); 
-
-let nome3 = "Dilan Santos";
-let resultado3 = " ";
-
-if (nome3.indexOf('Santos') > -1) {
-    resultado3 = 'Achou';
-
-}else{
-    resultado3 = 'Não Achou';
-}
-
-console.log(resultado3);
+let resutado = nome.slice(0,18); // Para pegar a posição inicial até o final.
 
 
-let carro = 'Corola';
+let resutado2 = resutado.slice(2,10)  // Pegando da posição 2 / 10
+let resutado3 = resutado.slice(5)  // Começando da posição 0
 
-console.log(carro.length);  // Para saber o tamnho da palavra. (carro = 6 caracter)
-console.log(carro.indexOf('o')) // Para localizar a posição da letra.  (0 = posição 1)
+console.log(resutado);
+console.log(resutado2);
+console.log(resutado3);
 
-console.log(carro.split('')); // Para separa palavras e letras. Em Arrays;
-console.log(carro.charAt('0')) // Para localiza o indice da letra. (0 = letra C).
+
+let resultado4 = nome.substring(10,15); // Faz a mesma função do slice. Selecionando a posição inicial e a quantidade de caracteres que vc quer pegar.
+console.log(resultado4);
+
+
+
